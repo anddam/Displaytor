@@ -1,4 +1,4 @@
-* Displaytor
+# Displaytor
 
 A small utility to get the size of a display given its diagonal and
 ratio between width and height.
@@ -6,6 +6,10 @@ ratio between width and height.
 It converts between inches, the most common measure unit used by
 manufacturers when giving specs about their products, and centimeters,
 the measure unit needed when you want to give some sense to specs.
+
+* Screenshot
+
+![a screenshot of the program running](/anddam/Displaytor/raw/master/screenshot.png "a screenshot")
 
 * License
 
@@ -15,4 +19,3 @@ let's say this program has a permissive license.
 
 Do whatever you want with it but you're not allowed to harm people,
 electronic devices nor small mammals with it.
-
