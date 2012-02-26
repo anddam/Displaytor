@@ -1,0 +1,4 @@
+rectBox.*
+!rectBox.png
+Displaytor.xcodeproj/*
+!Displaytor.xcodeproj/project.pbxproj

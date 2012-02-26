@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654884E714FA30E000D101BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654884E614FA30E000D101BC /* Cocoa.framework */; };
+		654884F114FA30E000D101BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 654884EF14FA30E000D101BC /* InfoPlist.strings */; };
+		654884F314FA30E000D101BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654884F214FA30E000D101BC /* main.m */; };
+		654884F714FA30E000D101BC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 654884F514FA30E000D101BC /* Credits.rtf */; };
+		654884FA14FA30E000D101BC /* BRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654884F914FA30E000D101BC /* BRPAppDelegate.m */; };
+		654884FD14FA30E100D101BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654884FB14FA30E100D101BC /* MainMenu.xib */; };
+		6548851614FA4B1200D101BC /* rectBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6548851514FA469200D101BC /* rectBox.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		654884E214FA30E000D101BC /* Displaytor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Displaytor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654884E614FA30E000D101BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		654884E914FA30E000D101BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		654884EA14FA30E000D101BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		654884EB14FA30E000D101BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		654884EE14FA30E000D101BC /* Displaytor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaytor-Info.plist"; sourceTree = "<group>"; };
+		654884F014FA30E000D101BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654884F214FA30E000D101BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654884F414FA30E000D101BC /* Displaytor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaytor-Prefix.pch"; sourceTree = "<group>"; };
+		654884F614FA30E000D101BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		654884F814FA30E000D101BC /* BRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPAppDelegate.h; sourceTree = "<group>"; };
+		654884F914FA30E000D101BC /* BRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPAppDelegate.m; sourceTree = "<group>"; };
+		654884FC14FA30E100D101BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6548851514FA469200D101BC /* rectBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectBox.png; path = ../rectBox.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654884DF14FA30E000D101BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654884E714FA30E000D101BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654884D714FA30E000D101BC = {
+			isa = PBXGroup;
+			children = (
+				654884EC14FA30E000D101BC /* Displaytor */,
+				654884E514FA30E000D101BC /* Frameworks */,
+				654884E314FA30E000D101BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654884E314FA30E000D101BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654884E214FA30E000D101BC /* Displaytor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654884E514FA30E000D101BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654884E614FA30E000D101BC /* Cocoa.framework */,
+				654884E814FA30E000D101BC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		654884E814FA30E000D101BC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654884E914FA30E000D101BC /* AppKit.framework */,
+				654884EA14FA30E000D101BC /* CoreData.framework */,
+				654884EB14FA30E000D101BC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		654884EC14FA30E000D101BC /* Displaytor */ = {
+			isa = PBXGroup;
+			children = (
+				6548851514FA469200D101BC /* rectBox.png */,
+				654884FB14FA30E100D101BC /* MainMenu.xib */,
+				654884F814FA30E000D101BC /* BRPAppDelegate.h */,
+				654884F914FA30E000D101BC /* BRPAppDelegate.m */,
+				654884ED14FA30E000D101BC /* Supporting Files */,
+			);
+			path = Displaytor;
+			sourceTree = "<group>";
+		};
+		654884ED14FA30E000D101BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				654884EE14FA30E000D101BC /* Displaytor-Info.plist */,
+				654884EF14FA30E000D101BC /* InfoPlist.strings */,
+				654884F214FA30E000D101BC /* main.m */,
+				654884F414FA30E000D101BC /* Displaytor-Prefix.pch */,
+				654884F514FA30E000D101BC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654884E114FA30E000D101BC /* Displaytor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6548850014FA30E100D101BC /* Build configuration list for PBXNativeTarget "Displaytor" */;
+			buildPhases = (
+				654884DE14FA30E000D101BC /* Sources */,
+				654884DF14FA30E000D101BC /* Frameworks */,
+				654884E014FA30E000D101BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Displaytor;
+			productName = Displaytor;
+			productReference = 654884E214FA30E000D101BC /* Displaytor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654884D914FA30E000D101BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = 654884DC14FA30E000D101BC /* Build configuration list for PBXProject "Displaytor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 654884D714FA30E000D101BC;
+			productRefGroup = 654884E314FA30E000D101BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654884E114FA30E000D101BC /* Displaytor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654884E014FA30E000D101BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654884F114FA30E000D101BC /* InfoPlist.strings in Resources */,
+				654884F714FA30E000D101BC /* Credits.rtf in Resources */,
+				654884FD14FA30E100D101BC /* MainMenu.xib in Resources */,
+				6548851614FA4B1200D101BC /* rectBox.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654884DE14FA30E000D101BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654884F314FA30E000D101BC /* main.m in Sources */,
+				654884FA14FA30E000D101BC /* BRPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		654884EF14FA30E000D101BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654884F014FA30E000D101BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		654884F514FA30E000D101BC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654884F614FA30E000D101BC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		654884FB14FA30E100D101BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654884FC14FA30E100D101BC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654884FE14FA30E100D101BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		654884FF14FA30E100D101BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6548850114FA30E100D101BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaytor/Displaytor-Prefix.pch";
+				INFOPLIST_FILE = "Displaytor/Displaytor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6548850214FA30E100D101BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaytor/Displaytor-Prefix.pch";
+				INFOPLIST_FILE = "Displaytor/Displaytor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654884DC14FA30E000D101BC /* Build configuration list for PBXProject "Displaytor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654884FE14FA30E100D101BC /* Debug */,
+				654884FF14FA30E100D101BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6548850014FA30E100D101BC /* Build configuration list for PBXNativeTarget "Displaytor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6548850114FA30E100D101BC /* Debug */,
+				6548850214FA30E100D101BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654884D914FA30E000D101BC /* Project object */;
+}
