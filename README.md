@@ -7,11 +7,11 @@ It converts between inches, the most common measure unit used by
 manufacturers when giving specs about their products, and centimeters,
 the measure unit needed when you want to give some sense to specs.
 
-* Screenshot
+# Screenshot
 
 ![a screenshot of the program running](/anddam/Displaytor/raw/master/screenshot.png "a screenshot")
 
-* License
+# License
 
 It is customary to specific some form of open license when distributing code
 but since so far I never cared to understand the differences among those
