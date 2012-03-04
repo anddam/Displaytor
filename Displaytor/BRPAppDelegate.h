@@ -7,20 +7,28 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BRPDisplay.h"
 
 @interface BRPAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow          *window;
+@property (retain) IBOutlet NSNumberFormatter *sizeFormatter;
+@property (retain) IBOutlet BRPDisplay        *display;
+
+#pragma MARK UI ELEMENTS
+@property (retain) IBOutlet NSButton    *buttonUnit;
+
+@property (retain) IBOutlet NSTextField *fieldWidth;
+@property (retain) IBOutlet NSTextField *fieldHeight;
+
 @property (retain) IBOutlet NSTextField *labelWidth;
 @property (retain) IBOutlet NSTextField *labelHeight;
 @property (retain) IBOutlet NSTextField *labelDiagonal;
-@property (retain) IBOutlet NSButton    *buttonUnit;
-@property (retain) IBOutlet NSTextField *fieldWidth;
-@property (retain) IBOutlet NSTextField *fieldHeight;
-@property (retain) IBOutlet NSTextField *fieldDiagonal;
-@property (retain) IBOutlet NSTextField *fieldRatioWidth;
-@property (retain) IBOutlet NSTextField *fieldRatioHeight;
-@property (retain) IBOutlet NSNumberFormatter *sizeFormatter;
+
+@property (retain) IBOutlet NSTextField *labelDpi;
+@property (retain) IBOutlet NSTextField *labelDpiWidth;
+@property (retain) IBOutlet NSTextField *labelDpiHeight;
+
 
 - (void)     updateValues;
 - (IBAction) dataChanged: (id)sender;

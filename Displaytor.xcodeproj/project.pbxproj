@@ -14,6 +14,7 @@
 		654884FA14FA30E000D101BC /* BRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654884F914FA30E000D101BC /* BRPAppDelegate.m */; };
 		654884FD14FA30E100D101BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654884FB14FA30E100D101BC /* MainMenu.xib */; };
 		6548851614FA4B1200D101BC /* rectBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6548851514FA469200D101BC /* rectBox.png */; };
+		65BE24D51503C1AD00CA4153 /* BRPDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BE24D31503C1AD00CA4153 /* BRPDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		654884F914FA30E000D101BC /* BRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPAppDelegate.m; sourceTree = "<group>"; };
 		654884FC14FA30E100D101BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6548851514FA469200D101BC /* rectBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectBox.png; path = ../rectBox.png; sourceTree = "<group>"; };
+		65BE24D21503C1AD00CA4153 /* BRPDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = BRPDisplay.h; sourceTree = "<group>"; };
+		65BE24D31503C1AD00CA4153 /* BRPDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				654884FB14FA30E100D101BC /* MainMenu.xib */,
 				654884F814FA30E000D101BC /* BRPAppDelegate.h */,
 				654884F914FA30E000D101BC /* BRPAppDelegate.m */,
+				65BE24D21503C1AD00CA4153 /* BRPDisplay.h */,
+				65BE24D31503C1AD00CA4153 /* BRPDisplay.m */,
 				654884ED14FA30E000D101BC /* Supporting Files */,
 			);
 			path = Displaytor;
@@ -172,6 +177,7 @@
 			files = (
 				654884F314FA30E000D101BC /* main.m in Sources */,
 				654884FA14FA30E000D101BC /* BRPAppDelegate.m in Sources */,
+				65BE24D51503C1AD00CA4153 /* BRPDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
