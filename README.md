@@ -9,7 +9,7 @@ the measure unit needed when you want to give some sense to specs.
 
 # Screenshot
 
-![a screenshot of the program running](/anddam/Displaytor/raw/master/screenshot.png "a screenshot")
+![a screenshot of the program running](https://raw.github.com/anddam/Displaytor/master/screenshot.png "a screenshot")
 
 # License
 
